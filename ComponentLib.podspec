@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   
   spec.description  = <<-DESC
-	This CocoaPods library helps use the custom components.
+	This CocoaPods library is for the users who wants to use the custom components in their ERP app.
                    DESC
 
   spec.homepage     = "https://github.com/om007/ComponentLib"
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = 'ComponentLib/ComponentLib/*.swift', '*.swift'
   spec.exclude_files = "Classes/Exclude"
   spec.swift_versions = '4.0'
   spec.ios.deployment_target = '11.0'

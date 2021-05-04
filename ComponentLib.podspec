@@ -24,7 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
+  
   spec.description  = <<-DESC
+	This CocoaPods library helps use the custom components.
                    DESC
 
   spec.homepage     = "https://github.com/om007/ComponentLib"
@@ -79,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/om007/ComponentLib", :branch => 'master', :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/om007/ComponentLib.git", :branch => 'master', :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
